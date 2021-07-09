@@ -48,7 +48,7 @@ if pagina == 'Home':
 	### COMO FUNCIONA?
 
 	- Clique no botão *GERAR NUVEM* ao lado
-	- Faça o upload do arquivo do cv em formato pdf. (*Lembrando que apenas currículos padrão (de uma página e no formato PDF) poderão ser lidos por este aplicativo.*)
+	- Faça o upload do arquivo (*Lembrando que apenas currículos padrão - de uma página e no formato PDF - poderão ser lidos por este aplicativo.*)
 	- Clique no botão 'GERAR NUVEM'
 	
 	VOILÀ!
@@ -63,7 +63,7 @@ if pagina == 'GERAR NUVEM':
     
 	uploaded_file = st.file_uploader("Somente arquivos de UMA página, no formato PDF:", type=["pdf"])
 
-	if st.button(label = '-> Clique aqui! <-', help = 'É só clicar ali'):
+	if st.button(label = '-> GERAR NUVEM <-', help = 'É só clicar ali'):
 
 		cv = pdf.open(uploaded_file)
 		pagina1 = cv.pages[0] # pagina 0 é a primeira
