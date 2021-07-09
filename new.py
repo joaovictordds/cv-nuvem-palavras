@@ -26,7 +26,7 @@ pagina = st.sidebar.radio('Selecione uma página:', paginas)
 
 st.sidebar.header('Upload do currículo:')
 
-uploaded_file = ('https://github.com/joaovictordds/joaovictordds/blob/main/cv-joaovictor-dds.pdf')
+#uploaded_file = ('https://github.com/joaovictordds/joaovictordds/blob/main/cv-joaovictor-dds.pdf')
 uploaded_file = st.sidebar.file_uploader("Somente arquivos de UMA página, no formato PDF:", type=["pdf"])
 
 cv = pdf.open(uploaded_file)
