@@ -28,7 +28,7 @@ st.sidebar.header('Upload do currículo:')
 
 palavra = []
 uploaded_file = []
-#uploaded_file = ('https://github.com/joaovictordds/joaovictordds/blob/main/cv-joaovictor-dds.pdf')
+uploaded_file = ('https://github.com/joaovictordds/joaovictordds/blob/main/cv-joaovictor-dds.pdf')
 uploaded_file = st.sidebar.file_uploader("Somente arquivos de UMA página, no formato PDF:", type=["pdf"])
 
 cv = pdf.open(uploaded_file)
