@@ -42,22 +42,22 @@ if pagina == 'Home':
 	- Presta?
 	- Eu me daria uma chance de participar de um processo seletivo com este material de 'boas-vindas'?
 
-	Se você é um recrutador e não gostaria de perder seus valiosos 6 segundos de análise de um currículo, insira  o arquivo
+	Se você é um recrutador e gostaria de buscar candidatos por palavras-chave e conteúdos relevantes, insira  o arquivo
 	do seu pretendente e avalie o que sai desse material.
 
 	### COMO FUNCIONA?
 
-	- Clique no botão *GERAR NUVEM* ao lado
-	- Faça o upload do arquivo (*Lembrando que apenas currículos padrão - de uma página e no formato PDF - poderão ser lidos por este aplicativo.*)
+	- Clique no botão *GERAR NUVEM* ao lado.
+	- Faça o upload do arquivo.
 	- Clique no botão 'GERAR NUVEM'
 	
-	VOILÀ!
+	Voilà!
 
 	''')	
 
 	st.image('thats-all.gif')
 
-if pagina == 'GERAR NUVEM':
+if pagina == 'Gerar Nuvem':
 
 	st.header('Upload do currículo:')
     
@@ -115,8 +115,8 @@ if pagina == 'Sobre':
 
 	st.write('''
 	
-	Caso queira dicas de como elaborar um bom currículo veja os links de sites especializados: [AQUI](https://blogcarreiras.cruzeirodosuleducacional.edu.br/9-dicas-que-vao-te-ajudar-a-elaborar-um-bom-curriculo/), [AQUI](https://fia.com.br/blog/como-fazer-um-bom-curriculo/) e 
-	[AQUI](https://blog.unicesumar.edu.br/como-fazer-um-bom-curriculo).
+	Caso queira dicas de como elaborar um bom currículo veja alguns links com informações sobre o assunto [aqui](https://blogcarreiras.cruzeirodosuleducacional.edu.br/9-dicas-que-vao-te-ajudar-a-elaborar-um-bom-curriculo/), [aqui](https://fia.com.br/blog/como-fazer-um-bom-curriculo/) e 
+	[aqui](https://blog.unicesumar.edu.br/como-fazer-um-bom-curriculo).
 	
 
 	---
@@ -125,7 +125,7 @@ if pagina == 'Sobre':
 	st.write('''
 
 	Acesse o [meu portfólio](https://joaovictordds.github.io/Portfolio/) de Data Science para outros materiais de outros assuntos como mercado financeiro, exploração de dados, machine learning, algoritmos e 
-	demais projetos que forem aparecendo.
+	demais assuntos que forem aparecendo.
 
 
 	*postado em 09/07/2021.*
