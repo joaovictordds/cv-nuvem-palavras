@@ -57,7 +57,7 @@ if pagina == 'Home':
 
 	st.image('thats-all.gif')
 
-if pagina == 'Gerar Nuvem':
+if pagina == 'GERAR NUVEM':
 
 	st.header('Upload do currículo:')
     
