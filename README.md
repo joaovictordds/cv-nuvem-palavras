@@ -2,9 +2,9 @@
 
 ![image](fds.gif)
 
-Faça a nuvem de palavras do seu currículo e veja como um setor de RH moderninho está analisando os currículos.
+Faça uma nuvem de palavras do seu currículo e observe como um setor de RH moderno analisa o conteúdo dele.
 
-Veja com seus próprios olhos o resultado da tua obra e avalie se você se contrataria com base no rico material criado.
+Analise o resultado da tua obra e avalie se você se contrataria com base no seu material.
 
 - [Link](https://share.streamlit.io/joaovictordds/cv-nuvem-palavras/main/new.py) do aplicativo.
 
